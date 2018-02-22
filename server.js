@@ -14,11 +14,11 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-  res.send('this the sample of article one and it contain svarious text');
+  res.send('this the sample of article two and it contain svarious text');
 });
 
 app.get('/article-three', function (req, res) {
-  res.send('this the sample of article one and it contain svarious text');
+  res.send('this the sample of article three and it contain svarious text');
 });
 
 app.get('/ui/style.css', function (req, res) {
