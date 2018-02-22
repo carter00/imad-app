@@ -9,8 +9,16 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'indexarticle-one.html'));
+app.get('/article-one', function (req, res) {
+  res.send('this the sample of article one and it contain svarious text');
+});
+
+app.get('/article-two', function (req, res) {
+  res.send('this the sample of article one and it contain svarious text');
+});
+
+app.get('/article-three', function (req, res) {
+  res.send('this the sample of article one and it contain svarious text');
 });
 
 app.get('/ui/style.css', function (req, res) {
